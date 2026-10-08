@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-millionverifier",
+  "version": "0.1.0",
+  "description": "MillionVerifier MCP — wraps the MillionVerifier single-verify API",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-millionverifier": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "millionverifier"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-millionverifier.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-c95fdfcb339ba49fc8a84a1e2e75fee777450d22fd83bffac95ff9f48e842178",
+    "sourceCommit": "e369dfedd93d5fcbf521281559a146302c14e1a0"
+  }
+}
