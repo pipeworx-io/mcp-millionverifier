@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-millionverifier",
-  "version": "0.1.0",
-  "description": "MillionVerifier MCP — wraps the MillionVerifier single-verify API",
+  "version": "0.1.1",
+  "description": "MillionVerifier MCP — wraps the MillionVerifier single-verify API (millionverifier.com)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-c95fdfcb339ba49fc8a84a1e2e75fee777450d22fd83bffac95ff9f48e842178",
-    "sourceCommit": "e369dfedd93d5fcbf521281559a146302c14e1a0"
+    "sourceHash": "v1-076e2afc9f12ddbdd79702b54f7446df414d979cd87b9f1bc57deb5fd0e3659b",
+    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
   }
 }

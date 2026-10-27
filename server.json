@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/millionverifier",
   "title": "Millionverifier",
-  "description": "MillionVerifier MCP — wraps the MillionVerifier single-verify API",
-  "version": "0.1.0",
+  "description": "MillionVerifier MCP — wraps the MillionVerifier single-verify API (millionverifier.com)",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/millionverifier",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-millionverifier",

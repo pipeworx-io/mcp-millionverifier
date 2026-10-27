@@ -4,7 +4,7 @@ Verify a single email address via MillionVerifier (millionverifier.com).
 Part of `enrich-waterfall`'s `enrich_verify_email` ordered verifiers (fleet
 #2860).
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1743+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1882+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -93,7 +93,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1743+ data sources. The
+Both URLs reach the same gateway and the same 1882+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
