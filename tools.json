@@ -1,0 +1,29 @@
+[
+  {
+    "name": "millionverifier_verify",
+    "description": "Verify a single email address with MillionVerifier. Returns result (ok/catch_all/disposable/invalid/unknown), a quality label, and free/role flags. Example: millionverifier_verify({ email: \"jane@stripe.com\", _apiKey: \"your-millionverifier-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "description": "Email address to verify, e.g. \"jane@stripe.com\""
+        },
+        "timeout": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 60,
+          "description": "SMTP timeout in seconds, 2-60 (default 20)."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Your MillionVerifier API key (find it at app.millionverifier.com/api)."
+        }
+      },
+      "required": [
+        "email",
+        "_apiKey"
+      ]
+    }
+  }
+]
