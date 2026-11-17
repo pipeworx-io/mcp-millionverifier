@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-millionverifier",
-  "version": "0.2.1",
-  "description": "MillionVerifier MCP — wraps the MillionVerifier single-verify API (millionverifier.com)",
+  "version": "0.2.2",
+  "description": "Unofficial MillionVerifier MCP — wraps the MillionVerifier single-verify API (millionverifier.com)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "millionverifier",
     "gatewaySlug": "millionverifier",
-    "sourceHash": "v1-17c7b8a2d649aad959eeaf208737fdca592455cbe8d6a61981f9009d55990754",
-    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
+    "sourceHash": "v1-46bd143fec610f0cff27e1264993b602f0899a95fff4844aedf31e51935e787b",
+    "sourceCommit": "6e7ae693219a515a7ee6dd88d02390ab290fbad3"
   }
 }
